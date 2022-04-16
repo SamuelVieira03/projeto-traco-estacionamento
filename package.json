@@ -1,18 +1,11 @@
 {
-  "name": "estacionamento",
+  "name": "modulo-3",
   "version": "1.0.0",
-  "description": "",
+  "description": "estacionamento TRACO",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "dev": "nodemon ./src/index.js"
+    "start": "browser-sync start --server --file . --host --port 5000 --startPath index.html" 
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.3",
-    "nodemon": "^2.0.15",
-    "sqlite": "^4.0.25",
-    "sqlite3": "^5.0.2"
-  }
+  "license": "ISC"
 }
